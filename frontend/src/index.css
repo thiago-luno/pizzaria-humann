@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font: 400 14px Maven Pro, sans-serif;
+  color: #575757;
+  background: #fbfbfb;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-bottom: 20px;
+}
+
+input, button, textarea {
+  font: 400 18px Roboto, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] + label {
+  display: flex;
+  align-items: center;
+}
+
+input[type="radio"] + label span {
+  display:inline-block;
+  width:25px;
+  height:25px;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  background: transparent;
+  margin-right: 10px;
+  transition: all .2s ease-out;
+}
+
+input[type="radio"]:checked + label span {
+  background: #74a337;
+}
+
+.button {
+  width: 100%;
+  height: 60px;
+  background: #e02041;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: filter 0.2s;
+}
+
+.button:hover {
+  filter: brightness(90%);
+}
+
+.button-add {
+  background: #74a337;
+  color: #fff;
+  padding: 5px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.box {
+  width: 100%;
+  position: relative;
+  background: #fff;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.list-payment {
+  display: flex;
+}
+
+.list-payment li {
+  padding: 10px;
+}
+
+.list-payment li img {
+  max-width: 30px;
+}
+
+/* Froms */
+form input {
+  width: 100%;
+  height: 40px;
+  background: #fbfbfb;
+  color: #333;
+  font-size: 14px;
+  box-shadow: 0px 0px 2px 0px #dcdce6;
+  border: none;
+  border-radius: 8px;
+  padding: 0 24px;
+  transition: box-shadow .2s ease-out;
+}
+
+form input:focus {
+  box-shadow: 0px 0px 4px 0px #74a337;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+
+/* Util */
+.no-margin {
+  margin: 0 !important;
+}
+
+.mt-10 {
+  margin-top: 10px !important;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.v-align-botton {
+  vertical-align: bottom;
+}
+
+.line-bottom {
+  border-bottom: 1px solid #ddd;
+}
+
+.font-small {
+  font-size: 14px;
+}
+
+.font-bold {
+  font-weight: bold !important;
+}

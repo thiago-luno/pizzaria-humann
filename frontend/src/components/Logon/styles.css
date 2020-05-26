@@ -1,0 +1,9 @@
+.login {
+    visibility: hidden;
+}
+
+.close {
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+}
